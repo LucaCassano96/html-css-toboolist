@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    width: 
+    100%;
+    min-height: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header img{
+    width: 5%;
+    margin: 1rem 0 0 3rem;
+}
+
+header span{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+
+main{
+    width: 55%;
+    margin: 40px auto;
+}
+
+.button button{
+    background-color: rgb(69, 156, 255);
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid rgb(216, 216, 216);
+    color: #fff;
+    margin: 3px;
+}
+
+.button button:nth-child(2){
+    background-color: #fff;
+    color: rgb(170, 170, 170);
+}
+
+.title h1{
+    font-size: 1.5rem;
+    color: rgb(35, 35, 35);
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.check{
+    color: rgb(35, 35, 35);
+    font-size: 15px;
+    margin: 15px 0 35px 0;
+}
+
+.check::before{
+    content: "\2713";
+    color: rgb(2, 161, 79);
+    border: 1px solid rgb(2, 161, 79);
+    font-size: 12px;
+    padding: 0 3px;
+    border-radius: 50%;
+    margin:0 5px 0 5px;
+}
+
+.red-check::before{
+    content: "\2717";
+    color: #f00;
+    border: 1px solid #f00;
+    font-size: 12px;
+    padding: 0 3px;
+    border-radius: 50%;
+    margin:0 5px 0 5px;
+}
+
+.color-bottom{
+    color: #fff;
+    font-size: 10px;
+    padding: 7px 10px;
+    border-radius: 15px;
+    margin-left: 3px ;
+}
+
+
+.editorial{
+    background-color: rgb(69, 156, 255) ;
+   
+}
+
+.goals{
+    background-color: rgb(138, 48, 198);
+}
+
+.recruiting{
+    background-color: rgb(16, 189, 137);
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: rgb(247, 110, 133);
+}
+
+.sales{
+    background-color: rgb(114, 223, 42);
+}
